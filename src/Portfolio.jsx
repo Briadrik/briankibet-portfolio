@@ -48,7 +48,7 @@ export default function Portfolio() {
       {/* About */}
       <section id="about" className="px-6 md:px-12 py-16">
         <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_1.5fr] gap-8 items-center">
-          <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="Brian avatar" className="w-40 h-40 mx-auto md:mx-0 rounded-full ring-2 ring-cyan-500/40 object-cover" />
+          <img src="/brian-photo.jpg" alt="Brian avatar" className="w-40 h-40 mx-auto md:mx-0 rounded-full ring-2 ring-cyan-500/40 object-cover" />
           <div>
             <h3 className="text-2xl font-bold text-cyan-300 mb-3">About Me</h3>
             <p className="text-gray-300 leading-relaxed">
