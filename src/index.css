@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Custom dark security vibe */
+html { scroll-behavior: smooth; }
+
+/* Neon accent for headings and icons */
+.neon {
+  text-shadow: 0 0 8px #06b6d4, 0 0 16px #0ea5e9;
+}
+
+/* Glassmorphism card effect */
+.glass {
+  background: rgba(30,41,59,0.6);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 32px 0 rgba(6,182,212,0.15);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(51,65,85,0.4);
+}
+
+/* Button hover effect */
+.btn-neon {
+  transition: box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 0 0 #06b6d4;
+}
+.btn-neon:hover {
+  box-shadow: 0 0 8px #06b6d4, 0 0 16px #0ea5e9;
+  background: #0891b2;
+}
